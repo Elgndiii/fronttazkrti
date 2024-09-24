@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css\cart.css">
+</head>
+<body>
+    <nav class="navbar" dir="rtl">
+        <img src="img\logo2-modified.png" id="logo">
+        <ul>
+            <li><a id="home1" href="homepage.html">الرئيسية</a></li>
+            <li><a  href="match.html" target="_parent">المباريات</a></li>
+            <li><a  href="events.html" target="_parent">الحفلات</a></li>
+            <li><a id="match1" href="#">خدماتنا ⬇</a>
+                <ul id="submenu">
+                    <li><a class="option" href="match tickets.html">حجز تذاكر للمباريات</a></li>
+
+                    <li><a class="option" href="events book.html">حجز تذاكر للحفلات</a></li>
+                </ul>
+            </li>
+			<li><a href="locations.html">الاستادات و المسارح</a>
+
+            <li><a href="Your tickets.html">تذاكرك</a></li>
+                <li><a href="contact us.html">اتصل بنا</a></li>
+        </ul>
+    </nav>
+	<div class="container">
+		<div class="product">
+			<img class="img" src="img\alahly vs zamalek.png">
+			<h3>الأهلي vs الزمالك</h3>
+			<p>10 L.E</p>
+			<button class="add-to-cart"   data-name="الأهلي vs الزمالك" data-price="10">أضف لعربة التسوق</button>
+		</div>
+
+		<div class="product">
+			<img class="img" src="img\real vs barca.png">
+			<h3>ريال مدريد vs برشلونة</h3>
+			<p>20 L.E</p>
+			<button class="add-to-cart" data-name="ريال مدريد vs برشلونة" data-price="20">أضف لعربة التسوق</button>
+		</div>
+
+		<div class="product">
+			<img class="img" src="img\liver vs city.png" >
+			<h3>ليفربول vs مان سيتي</h3>
+			<p>30 L.E</p>
+			<button class="add-to-cart" data-name="ليفربول vs مان سيتي" data-price="30">أضف لعربة التسوق</button>
+		</div>
+        <div class="product">
+			<img class="img" src="img\b vs d.png" >
+			<h3>بايرن vs دورتموند</h3>
+			<p>80 L.E</p>
+			<button class="add-to-cart" data-name="بايرن vs دورتموند" data-price="80">أضف لعربة التسوق</button>
+		</div>
+        <div  class="product">
+			<img class="img" src="img\ps vs new.png" >
+			<h3>نيوكاسل vs باريس</h3>
+			<p>35 L.E</p>
+			<button class="add-to-cart" data-name="نيوكاسل vs باريس" data-price="35">أضف لعربة التسوق</button>
+		</div>
+        <div class="product">
+			<img class="img" src="img\z.png" >
+			<h3>الزمالك vs انبي</h3>
+			<p>95 L.E</p>
+			<button class="add-to-cart" data-name="الزمالك vs انبي" data-price="95">أضف لعربة التسوق</button>
+		</div>
+
+        <div class="product">
+			<img class="img" src="img\pyra.png" >
+			<h3>الاتحاد السكندري vs الأهرام</h3>
+			<p>45 L.E</p>
+			<button class="add-to-cart" data-name="الاتحاد السكندري vs الأهرام" data-price="45">أضف لعربة التسوق</button>
+		</div>
+       
+	</div>
+
+	<div class="cart">
+		
+		<h2>عربة التذاكر</h2>
+		<img class="img" src="img\cart.png">
+		<ul class="cart-list">
+			<!-- Cart items will be added here -->
+		</ul>
+		<p>اجمالي الدفع= <omar class="total-price">$0</omar></p>
+		
+		<button class="clear-cart">ازالة المنتجات</button>
+		<button id="send" onclick="success()">دفع</button>
+		<div id="a3"></div>
+	</div>
+
+	<script src="js\cart2.js"></script>
+</body>
+</html>

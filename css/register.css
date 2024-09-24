@@ -1,0 +1,794 @@
+@media (min-width:1500px)  {
+
+
+    body {
+        padding: 0;
+        margin: 0;
+
+    }
+
+    #first-home {
+        position: relative;
+    }
+
+    #background-image {
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+
+    omar {
+        cursor: pointer;
+
+    }
+
+
+    .logo {
+        position: absolute;
+        right: 50px;
+        top: 15px;
+        height: 12%;
+        width: 5%;
+        cursor: pointer;
+    }
+    #logo2{
+height: 15%;
+width: 15%;
+margin-left: 150px;
+}
+
+    #log-in {
+        position: absolute;
+        left: 370px;
+        top: 15px;
+
+        height: 5%;
+        width: 2%;
+    }
+
+    #log {
+        position: absolute;
+        left: 280px;
+        top: 25px;
+        color: white;
+        font-weight: bolder;
+        font-size: larger;
+
+    }
+
+    #log:hover {
+        color: orange;
+    }
+
+    #reg-ister {
+        position: absolute;
+        left: 200px;
+        top: 15px;
+
+        height: 5%;
+        width: 2%;
+    }
+
+    #reg {
+        position: absolute;
+        left: 150px;
+        top: 25px;
+        color: white;
+        font-weight: bolder;
+        font-size: larger;
+
+    }
+
+    #reg:hover {
+        color: orange;
+    }
+
+    .c3 {
+        position: absolute;
+        left: 70px;
+        top: 25px;
+        color: white;
+        font-weight: bolder;
+        font-size: larger;
+        cursor: pointer;
+    }
+
+    .subname {
+        position: absolute;
+        left: -8px;
+        top: 22px;
+        display: none;
+
+    }
+
+    .subname .c2 {
+        display: block;
+        margin: 5px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .c3:hover {
+        color: orange;
+    }
+
+    .c3:hover .subname {
+        display: block;
+    }
+
+    .c2:hover {
+        color: orange;
+    }
+    #loginpage {
+        position: absolute;
+        left: 650px;
+        top: 30px;
+        height: 700px;
+width: 350px;
+        background: rgba(42, 42, 70, 0.521);
+
+    }
+    #username{
+        color: white;
+        font-size: large;
+        font-weight: bolder;
+        margin-left: 50px;
+    
+    }
+    #username1:hover{
+        border: 3px solid green;
+
+    }
+    #username1{
+        margin-left: 50px;
+
+        height: 40px;
+        width: 250;
+        margin-top: 10px; 
+    }
+    #usermail {
+        color: white;
+        font-size: large;
+        font-weight: bolder;
+        margin-top: 10px;
+        margin-left: 50px;
+
+    }
+
+    #e-mail {
+        height: 40px;
+        width: 250;
+        margin-top: 10px;
+        margin-left: 50px;
+
+
+    }
+
+    #e-mail:hover {
+        border: 3px solid green;
+    }
+
+    #userpasssword {
+        color: white;
+        font-size: large;
+        font-weight: bolder;
+        margin-left: 50px;
+
+    }
+
+    #password {
+        height: 40px;
+        width: 250;
+        margin-top: 10px;
+        margin-left: 50px;
+
+
+    }
+
+    #password:hover {
+        border: 3px solid green;
+    }
+    #logcorrect {
+        color: white;
+        font-size: larger;
+        font-weight: bolder;
+        margin-left: 90px;
+        width: 150px;
+        height: 30px;
+        background: green;
+        cursor: pointer;
+        box-shadow: 1px 1px 0px 0px black;
+        border-style: dotted;
+    }
+
+    #logcorrect:hover {
+        border: 2px solid wheat;
+        border-style: dotted;
+
+    }
+    #birth-date{
+        color: white;
+        font-size: large;
+        font-weight: bolder;
+        margin-top: 10px;
+        margin-left: 50px;
+
+    }
+
+    #birthdate {
+        height: 40px;
+        width: 250;
+        margin-top: 10px;
+        cursor: pointer;
+        margin-left: 50px;
+
+
+    }
+
+    #birthdate:hover {
+        border: 3px solid green;
+    }
+    #phone-num{
+        color: white;
+        font-size: large;
+        font-weight: bolder;
+        margin-top: 10px;
+        margin-left: 50px;
+
+    }
+
+    #phone {
+        height: 40px;
+        width: 250;
+        margin-top: 10px;
+        margin-left: 50px;
+
+
+    }
+
+    #phone:hover {
+        border: 3px solid green;
+    }
+    #password2{
+        color: black;
+        font-size: medium;
+        margin-left: 50px;
+        width: 250px;
+        height: 40px;
+
+    }
+    #check{
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+    #check2{
+        color: white;
+    }
+   
+}    
+
+@media (min-width:1000px) and (max-width:1500px) {
+
+    body {
+        padding: 0;
+        margin: 0;
+
+    }
+
+    #first-home {
+        position: relative;
+    }
+
+    #background-image {
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+
+    omar {
+        cursor: pointer;
+
+    }
+
+
+    .logo {
+        position: absolute;
+        right: 50px;
+        top: 15px;
+        height: 12%;
+        width: 5%;
+        cursor: pointer;
+    }
+    #logo2{
+height: 5%;
+width: 5%;
+margin-left: 170px;
+}
+
+    #log-in {
+        position: absolute;
+        left: 370px;
+        top: 25px;
+
+        height: 5%;
+        width: 2%;
+    }
+
+    #log {
+        position: absolute;
+        left: 280px;
+        top: 25px;
+        color: white;
+        font-weight: bolder;
+        font-size: larger;
+
+    }
+
+    #log:hover {
+        color: orange;
+    }
+
+    #reg-ister {
+        position: absolute;
+        left: 200px;
+        top: 25px;
+
+        height: 5%;
+        width: 2%;
+    }
+
+    #reg {
+        position: absolute;
+        left: 150px;
+        top: 25px;
+        color: white;
+        font-weight: bolder;
+        font-size: larger;
+
+    }
+
+    #reg:hover {
+        color: orange;
+    }
+
+    .c3 {
+        position: absolute;
+        left: 70px;
+        top: 25px;
+        color: white;
+        font-weight: bolder;
+        font-size: larger;
+        cursor: pointer;
+    }
+
+    .subname {
+        position: absolute;
+        left: -8px;
+        top: 22px;
+        display: none;
+
+    }
+
+    .subname .c2 {
+        display: block;
+        margin: 5px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .c3:hover {
+        color: orange;
+    }
+
+    .c3:hover .subname {
+        display: block;
+    }
+
+    .c2:hover {
+        color: orange;
+    }
+    #loginpage {
+        position: absolute;
+        left: 450px;
+        top: 30px;
+        height: 550px;
+width: 350px;
+        background: rgba(42, 42, 70, 0.521);
+
+    }
+    #username{
+        color: white;
+        font-size: medium;
+        font-weight: bolder;
+        margin-left: 50px;
+    
+    }
+    #username1:hover{
+        border: 3px solid green;
+
+    }
+    #username1{
+        margin-left: 50px;
+
+        height: 20px;
+        width: 250;
+        margin-top: 10px; 
+    }
+    #usermail {
+        color: white;
+        font-size: large;
+        font-weight: bolder;
+        margin-top: 10px;
+        margin-left: 50px;
+
+    }
+
+    #e-mail {
+        height: 20px;
+        width: 250;
+        margin-top: 10px;
+        margin-left: 50px;
+
+
+    }
+
+    #e-mail:hover {
+        border: 3px solid green;
+    }
+
+    #userpasssword {
+        color: white;
+        font-size: large;
+        font-weight: bolder;
+        margin-left: 50px;
+
+    }
+
+    #password {
+        height: 20px;
+        width: 250;
+        margin-top: 10px;
+        margin-left: 50px;
+
+
+    }
+
+    #password:hover {
+        border: 3px solid green;
+    }
+    #logcorrect {
+        color: white;
+        font-size: larger;
+        font-weight: bolder;
+        margin-left: 90px;
+        margin-top: 10px;
+        width: 150px;
+        height: 30px;
+        background: green;
+        cursor: pointer;
+        box-shadow: 1px 1px 0px 0px black;
+        border-style: dotted;
+    }
+
+    #logcorrect:hover {
+        border: 2px solid wheat;
+        border-style: dotted;
+
+    }
+    #birth-date{
+        color: white;
+        font-size: large;
+        font-weight: bolder;
+        margin-top: 10px;
+        margin-left: 50px;
+
+    }
+
+    #birthdate {
+        height: 20px;
+        width: 250;
+        margin-top: 10px;
+        cursor: pointer;
+        margin-left: 50px;
+
+
+    }
+
+    #birthdate:hover {
+        border: 3px solid green;
+    }
+    #phone-num{
+        color: white;
+        font-size: large;
+        font-weight: bolder;
+        margin-top: 10px;
+        margin-left: 50px;
+
+    }
+
+    #phone {
+        height: 20px;
+        width: 250;
+        margin-top: 10px;
+        margin-left: 50px;
+
+
+    }
+
+    #phone:hover {
+        border: 3px solid green;
+    }
+    #password2{
+        height: 20px;
+        width: 250;
+        margin-top: 10px;
+        margin-left: 50px;
+
+    }
+    #check{
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+    #check2{
+        color: white;
+    }
+   
+}
+
+@media  (max-width:1000px) {
+
+    body {
+        padding: 0;
+        margin: 0;
+
+    }
+
+    #first-home {
+        position: relative;
+    }
+
+    #background-image {
+        height: 280%;
+        width: 100%;
+        position: relative;
+    }
+
+    omar {
+        cursor: pointer;
+
+    }
+
+
+    .logo {
+        position: absolute;
+        right: 50px;
+        top: 20px;
+        height: 5%;
+        width:8%;
+        cursor: pointer;
+    }
+    #logo2{
+height: 15%;
+width: 15%;
+margin-left: 220px;
+}
+
+    #log-in {
+        position: absolute;
+        left: 550px;
+        top: 55px;
+
+        height: 2%;
+        width: 5%;
+    }
+
+    #log {
+        position: absolute;
+        left: 400px;
+        top: 50px;
+        color: white;
+        font-weight: bolder;
+        font-size: xx-large;
+
+    }
+
+    #log:hover {
+        color: orange;
+    }
+
+    #reg-ister {
+        position: absolute;
+        left: 250px;
+        top: 50px;
+
+        height: 2%;
+        width: 5%;
+    }
+
+    #reg {
+        position: absolute;
+        left: 180px;
+        top: 50px;
+        color: white;
+        font-weight: bolder;
+        font-size: xx-large;
+
+    }
+
+    #reg:hover {
+        color: orange;
+    }
+
+    .c3 {
+        position: absolute;
+        left: 70px;
+        top: 50px;
+        color: white;
+        font-weight: bolder;
+        font-size: xx-large;;
+        cursor: pointer;
+    }
+
+    .subname {
+        position: absolute;
+        left: -8px;
+        top: 22px;
+        display: none;
+
+    }
+
+    .subname .c2 {
+        display: block;
+        margin: 5px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .c3:hover {
+        color: orange;
+    }
+
+    .c3:hover .subname {
+        display: block;
+    }
+
+    .c2:hover {
+        color: orange;
+    }
+    #loginpage {
+        position: absolute;
+        left: 250px;
+        top: 350px;
+        height: 750px;
+width: 550px;
+        background: rgba(42, 42, 70, 0.521);
+
+    }
+    #username{
+        color: white;
+        font-size: large;
+        font-weight: bolder;
+        margin-left: 100px;
+    
+    }
+    #username1:hover{
+        border: 3px solid green;
+
+    }
+    #username1{
+        margin-left: 100px;
+
+        height: 50px;
+        width: 350;
+        margin-top: 10px; 
+    }
+    #usermail {
+        color: white;
+        font-size: large;
+        font-weight: bolder;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+
+    #e-mail {
+        height: 40px;
+        width: 350;
+        margin-top: 10px;
+        margin-left: 100px;
+
+    }
+
+    #e-mail:hover {
+        border: 3px solid green;
+    }
+
+    #userpasssword {
+        color: white;
+        font-size: large;
+        font-weight: bolder;
+        margin-left: 100px;
+    }
+
+    #password {
+        height: 40px;
+        width: 350;
+        margin-top: 10px;
+        margin-left: 100px;
+
+    }
+
+    #password:hover {
+        border: 3px solid green;
+    }
+    #logcorrect {
+        color: white;
+        font-size: larger;
+        font-weight: bolder;
+        margin-left: 140px;
+        width: 250px;
+        height: 30px;
+        background: green;
+        cursor: pointer;
+        box-shadow: 1px 1px 0px 0px black;
+        border-style: dotted;
+    }
+
+    #logcorrect:hover {
+        border: 2px solid wheat;
+        border-style: dotted;
+
+    }
+    #birth-date{
+        color: white;
+        font-size: large;
+        font-weight: bolder;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+
+    #birthdate {
+        height: 40px;
+        width: 350;
+        margin-top: 10px;
+        cursor: pointer;
+        margin-left: 100px;
+
+    }
+
+    #birthdate:hover {
+        border: 3px solid green;
+    }
+    #phone-num{
+        color: white;
+        font-size: large;
+        font-weight: bolder;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+
+    #phone {
+        height: 40px;
+        width: 350;
+        margin-top: 10px;
+        margin-left: 100px;
+
+    }
+
+    #phone:hover {
+        border: 3px solid green;
+    }
+    #password2{
+        height: 40px;
+        width: 350;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+    #check{
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+    #check2{
+        color: white;
+    }
+  
+}

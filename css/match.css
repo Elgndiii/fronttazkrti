@@ -1,0 +1,1393 @@
+@media (min-width:1500px) {
+
+    body {
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 45px;
+        background-color: green;
+        z-index: 100;
+    }
+
+    #logo {
+        position: absolute;
+        height: 100%;
+        width: 5%;
+        right: 10px;
+
+
+    }
+
+    #logo2 {
+        position: absolute;
+        height: 10%;
+        width: 5%;
+        right: 720px;
+
+
+    }
+
+
+    .navbar ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar li {
+        position: relative;
+    }
+
+    .navbar a {
+        display: block;
+        padding: 10px 20px;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .navbar ul ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        min-width: 200px;
+        display: none;
+    }
+
+    .navbar ul ul li {
+        position: relative;
+    }
+
+    .navbar ul ul a {
+        padding: 10px 20px;
+        color: #ffffff;
+        font-size: 16px;
+        background-color: green;
+    }
+
+    .navbar ul li:hover>ul {
+        display: block;
+    }
+
+    #home1 {
+        margin-right: 150px;
+        color: white;
+    }
+
+    #home1:hover {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+
+    #match1 {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+
+    #submenu {
+        background: green;
+
+    }
+
+    .option:hover {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+
+
+    a {
+        font-size: xx-large;
+        font-weight: bolder;
+        margin-top: 2px;
+    }
+
+
+    a:hover {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+
+
+    h2 {
+        margin-top: 50px;
+    }
+
+    .match {
+        position: relative;
+        font-size: xx-large;
+        border: 2px solid white;
+        margin-top: 20px;
+        padding: 10px;
+        cursor: pointer;
+        border-color: aquamarine;
+        border-radius: 30px;
+        background: rgb(29, 29, 29);
+    }
+
+    .match:hover {
+        color: black;
+        background: rgb(92, 91, 91);
+
+
+
+    }
+
+    #today {
+        position: relative;
+        top: 80px;
+    }
+
+    #day {
+        cursor: pointer;
+    }
+
+    #day:hover {
+
+        color: black;
+        background: green;
+        font-style: oblique;
+        font-weight: bolder;
+        font-size: 200%;
+    }
+
+    #barca {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        left: 570px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    #barca:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    #real {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        left: 900px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    #real:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    #ahly {
+        position: absolute;
+        width: 100px;
+        height: 80px;
+        margin-top: 20px;
+        left: 600px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    #ahly:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    #zam {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+        left: 860px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    #zam:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    #bayern {
+        position: absolute;
+        width: 100px;
+        height: 80px;
+        margin-top: 20px;
+        left: 540px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    #bayern:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    #bros {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+
+        left: 900px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    #bros:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    #city {
+        position: absolute;
+        width: 100px;
+        height: 80px;
+        margin-top: 20px;
+        left: 570px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    #city:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    #liver {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+
+        left: 870px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    #liver:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    h2 {
+        width: 250px;
+        margin-left: 645px;
+        cursor: pointer;
+
+    }
+
+    h2:hover {
+        color: orangered;
+        transform: translate(0px, -10px);
+
+    }
+
+    p {
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+
+    h1 {
+        background: rgb(237, 100, 100);
+    }
+
+    h1:hover {
+        background: cornflowerblue;
+        color: yellow;
+        font-style: oblique;
+        font-weight: bolder;
+        font-size: xx-large;
+        cursor: pointer;
+    }
+
+    #liga {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        right: 30px;
+    }
+
+    #ep {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        right: 20px;
+    }
+
+    #bundesliga {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        right: 20px;
+    }
+
+    #premier {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        right: 10px;
+    }
+
+    b {
+        position: absolute;
+        right: 90px;
+        top: 20px;
+        color: rgb(224, 224, 97);
+        font-style: oblique;
+        font-family: 'Courier New', Courier, monospace
+    }
+
+    .match {
+        border: 2px solid white;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .result {
+        position: relative;
+        width: 350px;
+        font-size: xx-large;
+        border: 2px solid white;
+        margin-top: 20px;
+        margin-left: 580px;
+        padding: 10px;
+        cursor: pointer;
+        border-color: aquamarine;
+        border-radius: 30px;
+
+    }
+
+    .result:hover {
+        color: black;
+        background: rgb(255, 255, 255);
+
+
+
+    }
+
+    .away {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 100px;
+        top: 35px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    .away:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    .home {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 210px;
+        top: 35px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    .home:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    #seemore {
+        position: relative;
+        width: 100%;
+        height: 15%;
+        font-size: xx-large;
+        margin-top: 0px;
+        padding: 10px;
+        cursor: pointer;
+        background: black;
+        color: #ffffff;
+        border: none;
+    }
+
+    #seemore:hover {
+        background: white;
+        color: black;
+    }
+
+
+    #a2:hover {
+        background: none;
+    }
+
+}
+
+
+@media all and (min-width:1000px) and (max-width:1500px) {
+
+    body {
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 45px;
+        background-color: green;
+        z-index: 100;
+    }
+
+    #logo {
+        position: absolute;
+        height: 100%;
+        width: 5%;
+        right: 10px;
+
+
+    }
+
+    #logo2 {
+        position: absolute;
+        height: 0%;
+        width: 0%;
+        right: 720px;
+
+
+    }
+
+
+    .navbar ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar li {
+        position: relative;
+    }
+
+    .navbar a {
+        display: block;
+        padding: 10px 20px;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .navbar ul ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        min-width: 200px;
+        display: none;
+    }
+
+    .navbar ul ul li {
+        position: relative;
+    }
+
+    .navbar ul ul a {
+        padding: 10px 20px;
+        color: #ffffff;
+        font-size: 16px;
+        background-color: green;
+    }
+
+    .navbar ul li:hover>ul {
+        display: block;
+    }
+
+    #home1 {
+        margin-right: 150px;
+        color: white;
+    }
+
+    #home1:hover {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+
+    #match1 {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+
+    #submenu {
+        background: green;
+
+    }
+
+    .option:hover {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+
+
+    a {
+        font-size: xx-large;
+        font-weight: bolder;
+        margin-top: 2px;
+    }
+
+
+    a:hover {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+
+
+    h2 {
+        margin-top: 50px;
+    }
+
+    .match {
+        position: relative;
+        font-size: xx-large;
+        border: 2px solid white;
+        margin-top: 20px;
+        padding: 10px;
+        cursor: pointer;
+        border-color: aquamarine;
+        border-radius: 30px;
+    }
+
+    .match:hover {
+        color: black;
+        background: rgb(92, 91, 91);
+
+
+
+    }
+
+    #today {
+        position: relative;
+        top: 80px;
+    }
+
+    #day {
+        cursor: pointer;
+    }
+
+    #day:hover {
+
+        color: black;
+        background: green;
+        font-style: oblique;
+        font-weight: bolder;
+        font-size: 200%;
+    }
+
+    #barca {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        left: 570px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    #barca:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    #real {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        left: 900px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    #real:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    #ahly {
+        position: absolute;
+        width: 100px;
+        height: 80px;
+        margin-top: 20px;
+        left: 600px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    #ahly:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    #zam {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+        left: 860px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    #zam:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    #bayern {
+        position: absolute;
+        width: 100px;
+        height: 80px;
+        margin-top: 20px;
+        left: 540px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    #bayern:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    #bros {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+
+        left: 900px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    #bros:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    #city {
+        position: absolute;
+        width: 100px;
+        height: 80px;
+        margin-top: 20px;
+        left: 570px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    #city:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    #liver {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+
+        left: 870px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    #liver:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    h2 {
+        width: 250px;
+        margin-left: 645px;
+        cursor: pointer;
+
+    }
+
+    h2:hover {
+        color: orangered;
+        transform: translate(0px, -10px);
+
+    }
+
+    p {
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+
+    h1 {
+        background: cornflowerblue;
+    }
+
+    h1:hover {
+        background: cornflowerblue;
+        color: yellow;
+        font-style: oblique;
+        font-weight: bolder;
+        font-size: xx-large;
+        cursor: pointer;
+    }
+
+    #liga {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        right: 30px;
+    }
+
+    #ep {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        right: 20px;
+    }
+
+    #bundesliga {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        right: 20px;
+    }
+
+    #premier {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        right: 10px;
+    }
+
+    b {
+        position: absolute;
+        right: 90px;
+        top: 20px;
+        color: rgb(224, 224, 97);
+        font-style: oblique;
+        font-family: 'Courier New', Courier, monospace
+    }
+
+    .match {
+        border: 2px solid white;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .result {
+        position: relative;
+        width: 350px;
+        font-size: xx-large;
+        border: 2px solid white;
+        margin-top: 20px;
+        margin-left: 580px;
+        padding: 10px;
+        cursor: pointer;
+        border-color: aquamarine;
+        border-radius: 30px;
+
+    }
+
+    .result:hover {
+        color: black;
+        background: rgb(255, 255, 255);
+
+
+
+    }
+
+    .away {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 100px;
+        top: 35px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    .away:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    .home {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 210px;
+        top: 35px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    .home:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    #seemore {
+        position: relative;
+        width: 100%;
+        height: 15%;
+        font-size: xx-large;
+        margin-top: 0px;
+        padding: 10px;
+        cursor: pointer;
+        background: black;
+        color: #ffffff;
+        border: none;
+    }
+
+    #seemore:hover {
+        background: white;
+        color: black;
+    }
+
+    #a2:hover {
+        background: none;
+    }
+
+}
+
+
+@media all and (max-width:1000px) {
+
+    body {
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 45px;
+        background-color: green;
+        z-index: 100;
+    }
+
+    #logo {
+        position: absolute;
+        height: 100%;
+        width: 5%;
+        right: 10px;
+
+
+    }
+
+    #logo2 {
+        position: absolute;
+        height: 0%;
+        width: 0%;
+        right: 720px;
+
+
+    }
+
+
+    .navbar ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar li {
+        position: relative;
+    }
+
+    .navbar a {
+        display: block;
+        padding: 10px 20px;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .navbar ul ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        min-width: 200px;
+        display: none;
+    }
+
+    .navbar ul ul li {
+        position: relative;
+    }
+
+    .navbar ul ul a {
+        padding: 10px 20px;
+        color: #ffffff;
+        font-size: 16px;
+        background-color: green;
+    }
+
+    .navbar ul li:hover>ul {
+        display: block;
+    }
+
+    #home1 {
+        margin-right: 150px;
+        color: white;
+    }
+
+    #home1:hover {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+
+    #match1 {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+
+    #submenu {
+        background: green;
+
+    }
+
+    .option:hover {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+
+
+    a {
+        font-size: xx-large;
+        font-weight: bolder;
+        margin-top: 2px;
+    }
+
+
+    a:hover {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+
+
+    h2 {
+        margin-top: 50px;
+    }
+
+    .match {
+        position: relative;
+        font-size: xx-large;
+        border: 2px solid white;
+        margin-top: 20px;
+        padding: 10px;
+        cursor: pointer;
+        border-color: aquamarine;
+        border-radius: 30px;
+    }
+
+    .match:hover {
+        color: black;
+        background: rgb(92, 91, 91);
+
+
+
+    }
+
+    #today {
+        position: relative;
+        top: 80px;
+    }
+
+    #day {
+        cursor: pointer;
+    }
+
+    #day:hover {
+
+        color: black;
+        background: green;
+        font-style: oblique;
+        font-weight: bolder;
+        font-size: 200%;
+    }
+
+    #barca {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        left: 350px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    #barca:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    #real {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        left: 650px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    #real:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    #ahly {
+        position: absolute;
+        width: 100px;
+        height: 80px;
+        margin-top: 20px;
+        left: 350px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    #ahly:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    #zam {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+        left: 620px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    #zam:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    #bayern {
+        position: absolute;
+        width: 100px;
+        height: 80px;
+        margin-top: 20px;
+        left: 300px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    #bayern:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    #bros {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+
+        left: 670px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    #bros:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    #city {
+        position: absolute;
+        width: 100px;
+        height: 80px;
+        margin-top: 20px;
+        left: 330px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    #city:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    #liver {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+
+        left: 630px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    #liver:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    h2 {
+        width: 250px;
+        margin-left: 410px;
+        cursor: pointer;
+
+    }
+
+    h2:hover {
+        color: orangered;
+        transform: translate(0px, -10px);
+
+    }
+
+    p {
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+
+    h1 {
+        background: cornflowerblue;
+    }
+
+    h1:hover {
+        background: cornflowerblue;
+        color: yellow;
+        font-style: oblique;
+        font-weight: bolder;
+        font-size: xx-large;
+        cursor: pointer;
+    }
+
+    #liga {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        right: 30px;
+    }
+
+    #ep {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        right: 20px;
+    }
+
+    #bundesliga {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        right: 20px;
+    }
+
+    #premier {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        right: 10px;
+    }
+
+    b {
+        position: absolute;
+        right: 90px;
+        top: 20px;
+        color: rgb(224, 224, 97);
+        font-style: oblique;
+        font-family: 'Courier New', Courier, monospace
+    }
+
+    .match {
+        border: 2px solid white;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .result {
+        position: relative;
+        width: 350px;
+        font-size: xx-large;
+        border: 2px solid white;
+        margin-top: 20px;
+        margin-left: 310px;
+        padding: 10px;
+        cursor: pointer;
+        border-color: aquamarine;
+        border-radius: 30px;
+
+    }
+
+    .result:hover {
+        color: black;
+        background: rgb(255, 255, 255);
+
+
+
+    }
+
+    .away {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 100px;
+        top: 35px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    .away:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+
+    .home {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 210px;
+        top: 35px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+    }
+
+    .home:hover {
+        transform: scale(1.1);
+
+        filter: brightness(70%);
+
+    }
+    
+
+    #seemore {
+        position: relative;
+        width: 100%;
+        height: 5%;
+        font-size: xx-large;
+        margin-top: 0px;
+        padding: 10px;
+        cursor: pointer;
+        background: black;
+        color: #ffffff;
+        border: none;
+    }
+
+    #seemore:hover {
+        background: white;
+        color: black;
+    }
+
+
+    #a2:hover {
+        background: none;
+    }
+}

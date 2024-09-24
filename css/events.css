@@ -1,0 +1,976 @@
+@media (min-width:1500px) {
+
+    body {
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 45px;
+        background-color: green;
+        z-index: 100;
+    }
+
+    #logo {
+        position: absolute;
+        height: 100%;
+        width: 5%;
+        right: 10px;
+
+
+    }
+
+    #logo2 {
+        position: absolute;
+        height: 10%;
+        width: 5%;
+        right: 720px;
+
+
+    }
+
+
+    .navbar ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar li {
+        position: relative;
+    }
+
+    .navbar a {
+        display: block;
+        padding: 10px 20px;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .navbar ul ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        min-width: 200px;
+        display: none;
+    }
+
+    .navbar ul ul li {
+        position: relative;
+    }
+
+    .navbar ul ul a {
+        padding: 10px 20px;
+        color: #ffffff;
+        font-size: 16px;
+        background-color: green;
+    }
+
+    .navbar ul li:hover>ul {
+        display: block;
+    }
+
+    #home1 {
+        margin-right: 150px;
+        color: white;
+    }
+
+    #home1:hover {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+
+    #match1 {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+
+    #submenu {
+        background: green;
+
+    }
+
+    .option:hover {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+
+
+    a {
+        font-size: xx-large;
+        font-weight: bolder;
+        margin-top: 2px;
+    }
+
+
+    a:hover {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+
+    #top-left {
+        position: relative;
+        float: left;
+        height: 100%;
+        width: 30%;
+        transition: 2s;
+
+    }
+
+    #soon {
+        position: absolute;
+        color: white;
+        background: gray;
+        font-size: large;
+        font-weight: bolder;
+        top: 30px;
+        left: 150px;
+    }
+
+    #first-party {
+        position: relative;
+        left: 0px;
+        top: 80px;
+        width: 100%;
+        height: 40%;
+    }
+
+    .tamer {
+        position: absolute;
+border-radius: 20px;
+        width: 100%;
+        height: 100%;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        left: 0px;
+        top: 0px;
+    }
+
+    .tamer:hover {
+        transform: scale(1.1);
+        filter: brightness(50%);
+    }
+
+    .new1 {
+        position: absolute;
+        color: #fafafa;
+        background: rgb(29, 29, 29);
+        font-size: xx-large;
+        position: absolute;
+        height: 40px;
+        top: 100%;
+        left: 0px;
+        width: 100%;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 10px;
+        border-style: dashed;
+    }
+
+    .new1:hover {
+        color: white;
+        background: green;
+
+        transform: scale(1.1);
+
+    }
+
+    #second-party {
+        position: relative;
+        width: 100%;
+        height: 40%;
+        left: 0px;
+        top: 150px;
+    }
+
+
+    .new2 {
+        position: absolute;
+        color: #fafafa;
+        background: rgb(29, 29, 29);
+        font-size: xx-large;
+
+        height: 80px;
+        top: 100%;
+        left: 0px;
+        width: 100%;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 10px;
+        border-style: dashed;
+    }
+
+    .new2:hover {
+        color: white;
+background: green;
+        transform: scale(1.1);
+
+    }
+    #advs{
+        position: relative;
+        width: 100%;
+        height: 16%;
+        left: 0px;
+        top: 250px;
+    }
+    #adv{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+
+    #right {
+        position: relative;
+        float: right;
+        height: 100%;
+        width: 65%;
+        transition: 2s;
+    }
+
+    #first {
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        left: 0px;
+        top: 80px;
+
+    }
+
+    .ad {
+        position: absolute;
+        border-radius: 10px;
+
+        width: 100%;
+        height: 100%;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        left: 0px;
+        top: 0px;
+    }
+
+    .ad:hover {
+        transform: scale(1.1);
+        filter: brightness(50%);
+    }
+
+    .new3 {
+        position: absolute;
+        color: teal;
+        background: rgba(17, 109, 84, 0.155);
+        font-size: xx-large;
+               height: 35px;
+               
+        top: 0%;
+        left: 0px;
+        width: 100%;
+        cursor: pointer;
+        text-align: center;
+
+    }
+
+    .new3:hover {
+        color: white;
+
+        transform: scale(1.1);
+
+    }
+
+    .book {
+        position: absolute;
+        color: white;
+        background: teal;
+        left: 0px;
+        top: 100%;
+        width: 100%;
+        font-size: xx-large;
+        cursor: pointer;
+        text-decoration: none;
+        border-radius: 10px;
+
+    }
+    .book:hover {
+background: firebrick;
+
+    }
+    #second {
+        position: relative;
+        width: 47%;
+        height: 50%;
+        left: 500px;
+        top: 80px;
+    }
+    #third{
+        position: relative;
+        width: 95%;
+        height: 50%;
+        left: 0px;
+        top: 180px; 
+    }
+   
+}
+
+@media (min-width:1000px) and (max-width:1500px) {
+
+body {
+background-color: black;
+color: white;
+font-size: 20px;
+text-align: center;
+margin: 0;
+padding: 0;
+position: relative;
+}
+
+.navbar {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 45px;
+background-color: green;
+z-index: 100;
+}
+
+#logo {
+position: absolute;
+height: 100%;
+width: 5%;
+right: 10px;
+
+
+}
+
+#logo2 {
+position: absolute;
+height: 10%;
+width: 5%;
+right: 720px;
+
+
+}
+
+
+.navbar ul {
+margin: 0;
+padding: 0;
+list-style: none;
+display: flex;
+justify-content: space-between;
+}
+
+.navbar li {
+position: relative;
+}
+
+.navbar a {
+display: block;
+padding: 10px 20px;
+color: #ffffff;
+text-decoration: none;
+font-size: 18px;
+}
+
+.navbar ul ul {
+position: absolute;
+top: 100%;
+left: 0;
+min-width: 200px;
+display: none;
+}
+
+.navbar ul ul li {
+position: relative;
+}
+
+.navbar ul ul a {
+padding: 10px 20px;
+color: #ffffff;
+font-size: 16px;
+background-color: green;
+}
+
+.navbar ul li:hover>ul {
+display: block;
+}
+
+#home1 {
+margin-right: 150px;
+color: white;
+}
+
+#home1:hover {
+color: black;
+background: rgb(245, 245, 86);
+}
+
+#match1 {
+color: black;
+background: rgb(245, 245, 86);
+}
+
+#submenu {
+background: green;
+
+}
+
+.option:hover {
+color: black;
+background: rgb(245, 245, 86);
+}
+
+
+a {
+font-size: xx-large;
+font-weight: bolder;
+margin-top: 2px;
+}
+
+
+a:hover {
+color: black;
+background: rgb(245, 245, 86);
+}
+
+#top-left {
+position: relative;
+float: left;
+height: 100%;
+width: 30%;
+transition: 2s;
+
+}
+
+#soon {
+position: absolute;
+color: white;
+background: gray;
+font-size: large;
+font-weight: bolder;
+top: 30px;
+left: 150px;
+}
+
+#first-party {
+position: relative;
+left: 0px;
+top: 80px;
+width: 100%;
+height: 40%;
+}
+
+.tamer {
+position: absolute;
+border-radius: 20px;
+
+width: 100%;
+height: 100%;
+transition: all 0.2s ease-in-out;
+cursor: pointer;
+left: 0px;
+top: 0px;
+}
+
+.tamer:hover {
+transform: scale(1.1);
+filter: brightness(50%);
+}
+
+.new1 {
+position: absolute;
+color: #fafafa;
+        background: rgb(29, 29, 29);
+        
+font-size: x-large;
+position: absolute;
+height: 40px;
+top: 100%;
+left: 0px;
+width: 100%;
+cursor: pointer;
+text-align: center;
+border-radius: 10px;
+border-style: dashed;
+}
+
+.new1:hover {
+color: white;
+background: green;
+
+transform: scale(1.1);
+
+}
+
+#second-party {
+position: relative;
+width: 100%;
+height: 40%;
+left: 0px;
+top: 150px;
+}
+
+
+.new2 {
+position: absolute;
+color: #fafafa;
+        background: rgb(29, 29, 29);
+        
+font-size: xx-large;
+
+height: 80px;
+top: 100%;
+left: 0px;
+width: 100%;
+cursor: pointer;
+text-align: center;
+border-radius: 10px;
+border-style: dashed;
+}
+
+.new2:hover {
+color: white;
+background: green;
+transform: scale(1.1);
+
+}
+#advs{
+position: relative;
+width: 100%;
+height: 16%;
+left: 0px;
+top: 250px;
+}
+#adv{
+position: absolute;
+height: 100%;
+width: 100%;
+}
+
+#right {
+position: relative;
+float: right;
+height: 100%;
+width: 65%;
+transition: 2s;
+}
+
+#first {
+position: absolute;
+width: 50%;
+height: 50%;
+left: 0px;
+top: 80px;
+
+}
+
+.ad {
+position: absolute;
+border-radius: 10px;
+
+width: 100%;
+height: 100%;
+transition: all 0.2s ease-in-out;
+cursor: pointer;
+left: 0px;
+top: 0px;
+}
+
+.ad:hover {
+transform: scale(1.1);
+filter: brightness(50%);
+}
+
+.new3 {
+position: absolute;
+color: teal;
+background: rgba(17, 109, 84, 0.155);
+font-size: x-large;
+
+height: 35px;
+top: 0%;
+left: 0px;
+width: 100%;
+cursor: pointer;
+text-align: center;
+
+}
+
+.new3:hover {
+color: white;
+
+transform: scale(1.1);
+
+}
+
+.book {
+position: absolute;
+color: white;
+background: teal;
+left: 0px;
+top: 100%;
+width: 100%;
+font-size: xx-large;
+cursor: pointer;
+text-decoration: none;
+border-radius: 10px;
+
+}
+.book:hover {
+    background: firebrick;
+    
+        }
+#second {
+position: relative;
+width: 47%;
+height: 50%;
+left: 500px;
+top: 80px;
+}
+#third{
+position: relative;
+width:100%;
+height: 50%;
+left: 0px;
+top: 180px; 
+}
+
+}
+
+@media (min-width:700px) and (max-width:1000px) {
+
+
+body {
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 45px;
+        background-color: green;
+        z-index: 100;
+    }
+
+    #logo {
+        position: absolute;
+        height: 100%;
+        width: 5%;
+        right: 10px;
+
+
+    }
+
+    #logo2 {
+        position: absolute;
+        height: 10%;
+        width: 5%;
+        right: 720px;
+
+
+    }
+
+
+    .navbar ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar li {
+        position: relative;
+    }
+
+    .navbar a {
+        display: block;
+        padding: 10px 20px;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .navbar ul ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        min-width: 200px;
+        display: none;
+    }
+
+    .navbar ul ul li {
+        position: relative;
+    }
+
+    .navbar ul ul a {
+        padding: 10px 20px;
+        color: #ffffff;
+        font-size: 16px;
+        background-color: green;
+    }
+
+    .navbar ul li:hover>ul {
+        display: block;
+    }
+
+    #home1 {
+        margin-right: 150px;
+        color: white;
+    }
+
+    #home1:hover {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+
+    #match1 {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+
+    #submenu {
+        background: green;
+
+    }
+
+    .option:hover {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+
+
+    a {
+        font-size: xx-large;
+        font-weight: bolder;
+        margin-top: 2px;
+    }
+
+
+    a:hover {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+
+    #top-left {
+        position: relative;
+        float: left;
+        height: 100%;
+        width: 30%;
+        transition: 2s;
+
+    }
+
+    #soon {
+        position: absolute;
+        color: white;
+        background: gray;
+        font-size: large;
+        font-weight: bolder;
+        top: 30px;
+        left: 150px;
+    }
+
+    #first-party {
+        position: relative;
+        left: 0px;
+        top: 80px;
+        width: 100%;
+        height: 40%;
+    }
+
+    .tamer {
+        position: absolute;
+        border-radius: 20px;
+
+        width: 100%;
+        height: 100%;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        left: 0px;
+        top: 0px;
+    }
+
+    .tamer:hover {
+        transform: scale(1.1);
+        filter: brightness(50%);
+    }
+
+    .new1 {
+        position: absolute;
+        color: #fafafa;
+        background: rgb(29, 29, 29);
+        
+        font-size: x-large;
+        position: absolute;
+        height: 40px;
+        top: 100%;
+        left: 0px;
+        width: 100%;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 10px;
+        border-style: dashed;
+    }
+
+    .new1:hover {
+        color: white;
+        background: green;
+
+        transform: scale(1.1);
+
+    }
+
+    #second-party {
+        position: relative;
+        width: 100%;
+        height: 40%;
+        left: 0px;
+        top: 150px;
+    }
+
+
+    .new2 {
+        position: absolute;
+        color: #fafafa;
+        background: rgb(29, 29, 29);
+        
+        font-size: xx-large;
+
+        height: 80px;
+        top: 100%;
+        left: 0px;
+        width: 100%;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 10px;
+        border-style: dashed;
+    }
+
+    .new2:hover {
+        color: white;
+background: green;
+        transform: scale(1.1);
+
+    }
+    #advs{
+        position: relative;
+        width: 100%;
+        height: 16%;
+        left: 0px;
+        top: 250px;
+    }
+    #adv{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+
+    #right {
+        position: relative;
+        float: right;
+        height: 100%;
+        width: 70%;
+        transition: 2s;
+    }
+
+    #first {
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        left: 0px;
+        top: 80px;
+
+    }
+
+    .ad {
+        position: absolute;
+        border-radius: 10px;
+
+        width: 100%;
+        height: 100%;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        left: 0px;
+        top: 0px;
+    }
+
+    .ad:hover {
+        transform: scale(1.1);
+        filter: brightness(50%);
+    }
+
+    .new3 {
+        position: absolute;
+        color: white;
+        background: rgba(17, 109, 84, 0.155);
+        font-size: large;
+
+        height: 25px;
+        top: 0%;
+        left: 0px;
+        width: 100%;
+        cursor: pointer;
+        text-align: center;
+
+    }
+
+    .new3:hover {
+        color: teal;
+
+        transform: scale(1.1);
+
+    }
+
+    .book {
+        position: absolute;
+        color: white;
+        background: teal;
+        left: 0px;
+        top: 100%;
+        width: 100%;
+        font-size: xx-large;
+        cursor: pointer;
+        text-decoration: none;
+        border-radius: 10px;
+
+    }
+    .book:hover {
+        background: firebrick;
+        
+            }
+    #second {
+        position: relative;
+        width: 47%;
+        height: 50%;
+        left: 500px;
+        top: 80px;
+    }
+    #third{
+        position: relative;
+        width: 120%;
+        height: 50%;
+        left: 0px;
+        top: 180px; 
+    }
+    
+  
+}

@@ -1,0 +1,973 @@
+@media (min-width:1500px) {
+
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    position: relative;
+
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    background-color: green;
+    z-index: 100;
+}
+
+#logo {
+    position: absolute;
+    height: 100%;
+    width: 5%;
+
+}
+
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar a {
+    display: block;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    display: none;
+}
+
+.navbar ul ul li {
+    position: relative;
+}
+
+.navbar ul ul a {
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: green;
+}
+
+.navbar ul li:hover>ul {
+    display: block;
+}
+
+.top {
+    height: 50%;
+    width: 100%;
+}
+
+#home1 {
+    margin-right: 150px;
+    }
+    #match1 {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+
+#submenu {
+    background: green;
+
+}
+
+.option:hover {
+    color: black;
+    background: rgb(245, 245, 86);
+}
+
+
+.navbar a {
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 2px;
+}
+
+.navbar a:hover {
+    color: black;
+    background: rgb(245, 245, 86);
+}
+
+#stadium {
+    position: absolute;
+    margin: auto;
+    top: 50px;
+
+}
+
+#theatrs {
+    position: absolute;
+    margin: auto;
+    top: 450px;
+
+}
+
+.name {
+    position: relative;
+    top: 50px;
+    left: 38%;
+    color: #ffffff;
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
+
+.name2 {
+    position: relative;
+    top: 450px;
+    left: 45%;
+    color: #ffffff;
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
+
+.stad-name {
+    position: absolute;
+    top: 10px;
+    right: 10%;
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.town {
+    position: absolute;
+    top: 10px;
+    right: 50%;
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.location {
+    position: absolute;
+    top: 10px;
+    right: 91%;
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.first-line {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: rgb(29, 29, 29);
+    cursor: pointer;
+
+
+}
+
+.first-line:hover {
+    background: grey;
+}
+
+.second-line {
+    position: absolute;
+    top: 160px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: rgb(29, 29, 29);
+    cursor: pointer;
+
+
+
+}
+
+.loc {
+    position: absolute;
+    top: 5px;
+    right: 90%;
+    width: 5%;
+    height: 80%;
+}
+
+.third-line {
+    position: absolute;
+    top: 220px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: rgb(29, 29, 29);
+    cursor: pointer;
+
+
+
+}
+
+.fourth-line {
+    position: absolute;
+    top: 280px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: rgb(29, 29, 29);
+    cursor: pointer;
+
+
+
+}
+
+.fifth-line {
+    position: absolute;
+    top: 340px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: rgb(29, 29, 29);
+    cursor: pointer;
+
+
+
+}
+
+.first {
+    position: absolute;
+    top: 500px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: rgb(29, 29, 29);
+    cursor: pointer;
+
+
+
+}
+
+.second {
+    position: absolute;
+    top: 560px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: rgb(29, 29, 29);
+    cursor: pointer;
+
+
+
+}
+
+.third {
+    position: absolute;
+    top: 620px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: rgb(29, 29, 29);
+    cursor: pointer;
+
+
+
+}
+
+.fourth {
+    position: absolute;
+    top: 680px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: rgb(29, 29, 29);
+    cursor: pointer;
+
+
+
+}
+
+.first:hover {
+    background: grey;
+}
+
+.second-line:hover {
+    background: grey;
+}
+
+.second:hover {
+    background: grey;
+}
+
+.third-line:hover {
+    background: grey;
+}
+
+.third:hover {
+    background: grey;
+}
+
+.fourth-line:hover {
+    background: grey;
+}
+
+.fourth:hover {
+    background: grey;
+}
+
+.fifth-line:hover {
+    background: grey;
+}
+}
+
+@media (min-width:1000px) and  (max-width:1500px){
+
+    body {
+        margin: 0;
+        padding: 0;
+        background: black;
+        position: relative;
+    
+    }
+    
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 45px;
+        background-color: green;
+        z-index: 100;
+    }
+    
+    #logo {
+        position: absolute;
+        height: 100%;
+        width: 5%;
+    
+    }
+    
+    
+    .navbar ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .navbar li {
+        position: relative;
+    }
+    
+    .navbar a {
+        display: block;
+        padding: 10px 20px;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    
+    .navbar ul ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        min-width: 200px;
+        display: none;
+    }
+    
+    .navbar ul ul li {
+        position: relative;
+    }
+    
+    .navbar ul ul a {
+        padding: 10px 20px;
+        color: #ffffff;
+        font-size: 16px;
+        background-color: green;
+    }
+    
+    .navbar ul li:hover>ul {
+        display: block;
+    }
+    
+    .top {
+        height: 50%;
+        width: 100%;
+    }
+    
+    #home1 {
+        margin-right: 150px;
+      
+    }
+    #match1 {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+    
+    #submenu {
+        background: green;
+    
+    }
+    
+    .option:hover {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+    
+    
+    .navbar a {
+        font-size: large;
+        font-weight: bolder;
+        margin-top: 2px;
+    }
+    
+    .navbar a:hover {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+    
+    #stadium {
+        position: absolute;
+        margin: auto;
+        top: 50px;
+    
+    }
+    
+    #theatrs {
+        position: absolute;
+        margin: auto;
+        top: 450px;
+    
+    }
+    
+    .name {
+        position: relative;
+        top: 50px;
+        left: 38%;
+        color: #ffffff;
+        font-size: xx-large;
+        font-weight: bolder;
+    
+    }
+    
+    .name2 {
+        position: relative;
+        top: 450px;
+        left: 45%;
+        color: #ffffff;
+        font-size: xx-large;
+        font-weight: bolder;
+    
+    }
+    
+    .stad-name {
+        position: absolute;
+        top: 10px;
+        right: 10%;
+        color: white;
+        font-size: x-large;
+        font-weight: bolder;
+    }
+    
+    .town {
+        position: absolute;
+        top: 10px;
+        right: 50%;
+        color: white;
+        font-size: x-large;
+        font-weight: bolder;
+    }
+    
+    .location {
+        position: absolute;
+        top: 10px;
+        right: 91%;
+        color: white;
+        font-size: x-large;
+        font-weight: bolder;
+    }
+    
+    .first-line {
+        position: absolute;
+        top: 100px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: rgb(29, 29, 29);
+        cursor: pointer;
+
+    
+    
+    }
+    
+    .first-line:hover {
+        background: grey;
+    }
+    
+    .second-line {
+        position: absolute;
+        top: 160px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: rgb(29, 29, 29);
+        cursor: pointer;
+
+    
+    
+    }
+    
+    .loc {
+        position: absolute;
+        top: 5px;
+        right: 90%;
+        width: 5%;
+        height: 80%;
+    }
+    
+    .third-line {
+        position: absolute;
+        top: 220px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: rgb(29, 29, 29);
+        cursor: pointer;
+
+    
+    
+    }
+    
+    .fourth-line {
+        position: absolute;
+        top: 280px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: rgb(29, 29, 29);
+        cursor: pointer;
+
+    
+    }
+    
+    .fifth-line {
+        position: absolute;
+        top: 340px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: rgb(29, 29, 29);
+    
+        cursor: pointer;
+
+    }
+    
+    .first {
+        position: absolute;
+        top: 500px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: rgb(29, 29, 29);
+        cursor: pointer;
+
+    
+    }
+    
+    .second {
+        position: absolute;
+        top: 560px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: rgb(29, 29, 29);
+        cursor: pointer;
+
+    
+    }
+    
+    .third {
+        position: absolute;
+        top: 620px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: rgb(29, 29, 29);
+        cursor: pointer;
+
+    
+    }
+    
+    .fourth {
+        position: absolute;
+        top: 680px;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background: rgb(29, 29, 29);
+    
+        cursor: pointer;
+
+    }
+    
+    .first:hover {
+        background: grey;
+    }
+    
+    .second-line:hover {
+        background: grey;
+    }
+    
+    .second:hover {
+        background: grey;
+    }
+    
+    .third-line:hover {
+        background: grey;
+    }
+    
+    .third:hover {
+        background: grey;
+    }
+    
+    .fourth-line:hover {
+        background: grey;
+    }
+    
+    .fourth:hover {
+        background: grey;
+    }
+    
+    .fifth-line:hover {
+        background: grey;
+    }
+    }
+    @media (max-width:1000px) {
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: black;
+            position: relative;
+        
+        }
+        
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 45px;
+            background-color: green;
+            z-index: 100;
+        }
+        
+        #logo {
+            position: absolute;
+            height: 100%;
+            width: 5%;
+        
+        }
+        
+        
+        .navbar ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .navbar li {
+            position: relative;
+        }
+        
+        .navbar a {
+            display: block;
+            padding: 10px 20px;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        
+        .navbar ul ul {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            min-width: 200px;
+            display: none;
+        }
+        
+        .navbar ul ul li {
+            position: relative;
+        }
+        
+        .navbar ul ul a {
+            padding: 10px 20px;
+            color: #ffffff;
+            font-size: 16px;
+            background-color: green;
+        }
+        
+        .navbar ul li:hover>ul {
+            display: block;
+        }
+        
+        .top {
+            height: 50%;
+            width: 100%;
+        }
+        
+        #home1 {
+            margin-right: 150px;
+            
+        }
+        #match1 {
+            color: black;
+            background: rgb(245, 245, 86);
+        }
+        
+        #submenu {
+            background: green;
+        
+        }
+        
+        .option:hover {
+            color: black;
+            background: rgb(245, 245, 86);
+        }
+        
+        
+        .navbar a {
+            font-size: large;
+            font-weight: bolder;
+            margin-top: 2px;
+        }
+        
+        .navbar a:hover {
+            color: black;
+            background: rgb(245, 245, 86);
+        }
+        
+        #stadium {
+            position: absolute;
+            margin: auto;
+            top: 50px;
+        
+        }
+        
+        #theatrs {
+            position: absolute;
+            margin: auto;
+            top: 450px;
+        
+        }
+        
+        .name {
+            position: relative;
+            top: 50px;
+            left: 38%;
+            color: #ffffff;
+            font-size: xx-large;
+            font-weight: bolder;
+        
+        }
+        
+        .name2 {
+            position: relative;
+            top: 450px;
+            left: 45%;
+            color: #ffffff;
+            font-size: xx-large;
+            font-weight: bolder;
+        
+        }
+        
+        .stad-name {
+            position: absolute;
+            top: 10px;
+            right: 10%;
+            color: white;
+            font-size: x-large;
+            font-weight: bolder;
+        }
+        
+        .town {
+            position: absolute;
+            top: 10px;
+            right: 50%;
+            color: white;
+            font-size: x-large;
+            font-weight: bolder;
+        }
+        
+        .location {
+            position: absolute;
+            top: 10px;
+            right: 91%;
+            color: white;
+            font-size: x-large;
+            font-weight: bolder;
+        }
+        
+        .first-line {
+            position: absolute;
+            top: 100px;
+            width: 100%;
+            height: 50px;
+            border-radius: 10px;
+            background: rgb(29, 29, 29);
+            cursor: pointer;
+
+        
+        
+        }
+        
+        .first-line:hover {
+            background: grey;
+        }
+        
+        .second-line {
+            position: absolute;
+            top: 160px;
+            width: 100%;
+            height: 50px;
+            border-radius: 10px;
+            background: rgb(29, 29, 29);
+            cursor: pointer;
+
+        
+        
+        }
+        
+        .loc {
+            position: absolute;
+            top: 5px;
+            right: 90%;
+            width: 5%;
+            height: 80%;
+        }
+        
+        .third-line {
+            position: absolute;
+            top: 220px;
+            width: 100%;
+            height: 50px;
+            border-radius: 10px;
+            background: rgb(29, 29, 29);
+            cursor: pointer;
+
+        
+        }
+        
+        .fourth-line {
+            position: absolute;
+            top: 280px;
+            width: 100%;
+            height: 50px;
+            border-radius: 10px;
+            background: rgb(29, 29, 29);
+            cursor: pointer;
+
+        
+        }
+        
+        .fifth-line {
+            position: absolute;
+            top: 340px;
+            width: 100%;
+            height: 50px;
+            border-radius: 10px;
+            background: rgb(29, 29, 29);
+            cursor: pointer;
+
+        
+        }
+        
+        .first {
+            position: absolute;
+            top: 500px;
+            width: 100%;
+            height: 50px;
+            border-radius: 10px;
+            background: rgb(29, 29, 29);
+            cursor: pointer;
+
+        
+        }
+        
+        .second {
+            position: absolute;
+            top: 560px;
+            width: 100%;
+            height: 50px;
+            border-radius: 10px;
+            background: rgb(29, 29, 29);
+        
+            cursor: pointer;
+
+        }
+        
+        .third {
+            position: absolute;
+            top: 620px;
+            width: 100%;
+            height: 50px;
+            border-radius: 10px;
+            background: rgb(29, 29, 29);
+            cursor: pointer;
+
+        
+        }
+        
+        .fourth {
+            position: absolute;
+            top: 680px;
+            width: 100%;
+            height: 50px;
+            border-radius: 10px;
+            background: rgb(29, 29, 29);
+            cursor: pointer;
+
+        
+        }
+        
+        .first:hover {
+            background: grey;
+        }
+        
+        .second-line:hover {
+            background: grey;
+        }
+        
+        .second:hover {
+            background: grey;
+        }
+        
+        .third-line:hover {
+            background: grey;
+        }
+        
+        .third:hover {
+            background: grey;
+        }
+        
+        .fourth-line:hover {
+            background: grey;
+        }
+        
+        .fourth:hover {
+            background: grey;
+        }
+        
+        .fifth-line:hover {
+            background: grey;
+        }
+        }

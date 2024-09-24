@@ -1,0 +1,704 @@
+@media (min-width:1500px)  {
+    body {
+        padding: 0;
+        margin: 0;
+    
+    }
+    
+    #first-home {
+        position: relative;
+    }
+    
+    #background-image {
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+    
+    omar {
+        cursor: pointer;
+    
+    }
+    
+    
+    .logo {
+        position: absolute;
+        right: 150px;
+        top: 15px;
+        height: 12%;
+        width: 5%;
+        cursor: pointer;
+    }
+    #logo2{
+        height: 15%;
+        width: 15%;
+        margin-left: 250px;
+    }
+    
+    #log-in {
+        position: absolute;
+        left: 470px;
+        top: 15px;
+    
+        height: 5%;
+        width: 2%;
+    }
+    
+    #log {
+        position: absolute;
+        left: 380px;
+        top: 25px;
+        color: white;
+        font-weight: bolder;
+        font-size: larger;
+    
+    }
+    
+    #log:hover {
+        color: orange;
+    }
+    
+    #reg-ister {
+        position: absolute;
+        left: 300px;
+        top: 15px;
+    
+        height: 5%;
+        width: 2%;
+    }
+    
+    #reg {
+        position: absolute;
+        left: 250px;
+        top: 25px;
+        color: white;
+        font-weight: bolder;
+        font-size: larger;
+    
+    }
+    
+    #reg:hover {
+        color: orange;
+    }
+    
+    .c3 {
+        position: absolute;
+        left: 170px;
+        top: 25px;
+        color: white;
+        font-weight: bolder;
+        font-size: larger;
+        cursor: pointer;
+    }
+    
+    .subname {
+        position: absolute;
+        left: -8px;
+        top: 22px;
+        display: none;
+    
+    }
+    
+    .subname .c2 {
+        display: block;
+        margin: 5px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .c3:hover {
+        color: orange;
+    }
+    
+    .c3:hover .subname {
+        display: block;
+    }
+    
+    .c2:hover {
+        color: orange;
+    }
+    
+    #loginpage {
+        position: absolute;
+        left: 500px;
+        top: 150px;
+        height: 530px;
+        width: 550px;
+        background: rgba(42, 42, 70, 0.521);
+    }
+    
+    #usermail {
+        padding-top: 50px;
+        color: white;
+        font-size: xx-large;
+        font-weight: bolder;
+        margin-left: 350px;
+    }
+    
+    #e-mail {
+        height: 60px;
+        width: 480;
+        margin-top: 10px;
+        margin-left: 50px;
+        font-size: xx-large;
+    
+    
+    }
+    
+    #e-mail:hover {
+        border: 3px solid green;
+    }
+    
+    #userpasssword {
+        padding-top: 50px;
+        color: white;
+        font-size: xx-large;
+        font-weight: bolder;
+        margin-left: 380px;
+    
+    }
+    
+    #password {
+        height: 60px;
+        width: 480;
+        margin-top: 10px;
+        margin-left: 50px;
+        font-size: xx-large;
+    
+    
+    }
+    
+    #password:hover {
+        border: 3px solid green;
+    }
+    
+    #not-found {
+        color: black;
+        font-weight: bolder;
+        font-size: xx-large;
+        margin-left: 200px;
+    }
+    
+    #not-register {
+    
+        color: white;
+        font-weight: bolder;
+        font-size: xx-large;
+        cursor: pointer;
+        margin-left: 10px;
+    
+    }
+    
+    #not-register:hover {
+        color: rgb(8, 255, 8);
+        
+    }
+    #not-reg{
+        height: 20px;
+        width: 25px;
+        cursor: pointer;
+    }
+    
+    #logcorrect {
+        color: white;
+        font-size: larger;
+        font-weight: bolder;
+        margin-left: 200px;
+        width: 150px;
+        height: 50px;
+        background: green;
+        cursor: pointer;
+        box-shadow: 1px 1px 0px 0px black;
+        border-style: dotted;
+        font-size: xx-large;
+    }
+    
+    #logcorrect:hover {
+        border: 2px solid wheat;
+        border-style: dotted;
+    
+    }
+    #check{
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+    #check2{
+        color: white;
+    }
+    
+    }
+
+    @media all and (min-width:1000px) and (max-width:1500px) {
+
+        body {
+            padding: 0;
+            margin: 0;
+    
+        }
+    
+        #first-home {
+            position: relative;
+        }
+    
+        #background-image {
+            height: 100%;
+            width: 100%;
+            position: relative;
+        }
+    
+        omar {
+            cursor: pointer;
+    
+        }
+    
+    
+        .logo {
+            position: absolute;
+            right: 50px;
+            top: 15px;
+            height: 12%;
+            width: 7%;
+            cursor: pointer;
+        }
+        #logo2{
+            height: 15%;
+            width: 15%;
+            margin-left: 200px;
+        }
+    
+        #log-in {
+            position: absolute;
+            left: 370px;
+            top: 25px;
+    
+            height: 5%;
+            width: 2%;
+        }
+    
+        #log {
+            position: absolute;
+            left: 280px;
+            top: 25px;
+            color: white;
+            font-weight: bolder;
+            font-size: larger;
+    
+        }
+    
+        #log:hover {
+            color: orange;
+        }
+    
+        #reg-ister {
+            position: absolute;
+            left: 200px;
+            top: 25px;
+    
+            height: 5%;
+            width: 2%;
+        }
+    
+        #reg {
+            position: absolute;
+            left: 150px;
+            top: 25px;
+            color: white;
+            font-weight: bolder;
+            font-size: larger;
+    
+        }
+    
+        #reg:hover {
+            color: orange;
+        }
+    
+        .c3 {
+            position: absolute;
+            left: 70px;
+            top: 25px;
+            color: white;
+            font-weight: bolder;
+            font-size: larger;
+            cursor: pointer;
+        }
+    
+        .subname {
+            position: absolute;
+            left: -8px;
+            top: 22px;
+            display: none;
+    
+        }
+    
+        .subname .c2 {
+            display: block;
+            margin: 5px;
+            color: white;
+            text-decoration: none;
+        }
+    
+        .c3:hover {
+            color: orange;
+        }
+    
+        .c3:hover .subname {
+            display: block;
+        }
+    
+        .c2:hover {
+            color: orange;
+        }
+    
+        #loginpage {
+            position: absolute;
+            left: 550px;
+            top: 100px;
+            height: 387px;
+        width: 450px;
+        background: rgba(42, 42, 70, 0.521);
+        }
+    
+        #usermail {
+            color: white;
+            font-size: large;
+            font-weight: bolder;
+            margin-top: 10px;
+            margin-left: 300px;
+        }
+    
+        #e-mail {
+            height: 40px;
+            width: 400;
+            margin-top: 10px;
+            margin-left: 20px;
+            font-size: xx-large;
+    
+        }
+    
+        #e-mail:hover {
+            border: 3px solid green;
+        }
+    
+        #userpasssword {
+            color: white;
+            font-size: large;
+            font-weight: bolder;
+            margin-left: 320px;
+            font-size: large;
+    
+        }
+    
+        #password {
+            height: 40px;
+            width: 400;
+            margin-top: 10px;
+            margin-left: 20px;
+            font-size: x-large;
+    
+    
+    
+        }
+    
+        #password:hover {
+            border: 3px solid green;
+        }
+    
+        #not-found {
+            color: black;
+            font-weight: bolder;
+            font-size: x-large;
+            margin-left: 310px;
+    margin-bottom: 10px;        
+        }
+    
+        #not-register {
+            position: absolute;
+            left: 0px;
+            color: white;
+            font-weight: bolder;
+            font-size: x-large;
+            cursor: pointer;
+        }
+    
+        #not-register:hover {
+            color: rgb(8, 255, 8);
+        }
+    
+        #not-reg {
+            position: absolute;
+            left: 90px;
+            height: 20px;
+            width: 25px;
+            cursor: pointer;
+        }
+    
+        #logcorrect {
+            color: white;
+            font-size: larger;
+            font-weight: bolder;
+            margin-left: 150px;
+            width: 150px;
+            height: 50px;
+            background: green;
+            cursor: pointer;
+            box-shadow: 1px 1px 0px 0px black;
+            border-style: dotted;
+            font-size: xx-large;
+        }
+    
+        #logcorrect:hover {
+            border: 2px solid wheat;
+            border-style: dotted;
+    
+        }
+        #check{
+            margin-top: 1px;
+            margin-bottom: 1px;
+        }
+        #check2{
+            color: white;
+        }
+    }
+
+    @media (max-width:1000px) {
+        body {
+            padding: 0;
+            margin: 0;
+        
+        }
+        
+        #first-home {
+            position: relative;
+        }
+        
+        #background-image {
+            height: 100%;
+            width: 100%;
+            position: relative;
+        }
+        
+        omar {
+            cursor: pointer;
+        
+        }
+        
+        
+        .logo {
+            position: absolute;
+            right: 50px;
+            top: 15px;
+            height: 5%;
+            width: 5%;
+            cursor: pointer;
+        }
+        #logo2{
+            height: 15%;
+            width: 15%;
+            margin-left: 200px;
+        }
+        
+        #log-in {
+            position: absolute;
+            left: 260px;
+            top: 25px;
+        
+            height: 0%;
+            width: 0%;
+        }
+        
+        #log {
+            position: absolute;
+            left: 180px;
+            top: 25px;
+            color: white;
+            font-weight: bolder;
+            font-size: larger;
+        
+        }
+        
+        #log:hover {
+            color: orange;
+        }
+        
+        #reg-ister {
+            position: absolute;
+            left: 140px;
+            top: 25px;
+        
+            height: 0%;
+            width: 0%;
+        }
+        
+        #reg {
+            position: absolute;
+            left: 100px;
+            top: 25px;
+            color: white;
+            font-weight: bolder;
+            font-size: larger;
+        
+        }
+        
+        #reg:hover {
+            color: orange;
+        }
+        
+        .c3 {
+            position: absolute;
+            left: 40px;
+            top: 25px;
+            color: white;
+            font-weight: bolder;
+            font-size: larger;
+            cursor: pointer;
+        }
+        
+        .subname {
+            position: absolute;
+            left: -8px;
+            top: 22px;
+            display: none;
+        
+        }
+        
+        .subname .c2 {
+            display: block;
+            margin: 5px;
+            color: white;
+            text-decoration: none;
+        }
+        
+        .c3:hover {
+            color: orange;
+        }
+        
+        .c3:hover .subname {
+            display: block;
+        }
+        
+        .c2:hover {
+            color: orange;
+        }
+        
+        #loginpage {
+            position: absolute;
+            left: 320px;
+            top: 170px;
+            height: 400px;
+            width: 450px;
+            background: rgba(42, 42, 70, 0.521);
+        }
+        
+        #usermail {
+           position: absolute;
+           top: 50px;
+            color: white;
+            font-size: large;
+            font-weight: bolder;
+            margin-left: 300px;
+        }
+        
+        #e-mail {
+            position: absolute;
+    
+            height: 40px;
+            width: 400;
+    top: 75px;        margin-left: 30px;
+            font-size: large;
+        
+        
+        }
+        
+        #e-mail:hover {
+            border: 3px solid green;
+        }
+        
+        #userpasssword {
+            padding-top: 50px;
+            color: white;
+            font-size: large;
+            font-weight: bolder;
+            margin-left: 330px;
+        
+        }
+        
+        #password {
+            height: 40px;
+            width: 400;
+            margin-top: 10px;
+            margin-left: 30px;
+            font-size: large;
+        
+        
+        }
+        
+        #password:hover {
+            border: 3px solid green;
+        }
+        
+        #not-found {
+            position: absolute;
+            top: 350px;
+            right: 50px;
+            color: black;
+            font-weight: bolder;
+            font-size: large;
+            margin-left: 200px;
+        }
+        
+        #not-register {
+            position: absolute;
+            top: 350px;
+            right: 350px;
+        
+            color: white;
+            font-weight: bolder;
+            font-size: large;
+            cursor: pointer;
+            margin-left: 10px;
+        
+        }
+        
+        #not-register:hover {
+            color: rgb(8, 255, 8);
+            
+        }
+        #not-reg{
+            position: absolute;
+            top: 350px;
+            right: 320px;
+            height: 20px;
+            width: 25px;
+            cursor: pointer;
+        }
+        
+        #logcorrect {
+            position: absolute;
+            top: 280px;
+            color: white;
+            font-size: larger;
+            font-weight: bolder;
+            margin-left: 190px;
+            width: 100px;
+            height: 30px;
+            background: green;
+            cursor: pointer;
+            box-shadow: 1px 1px 0px 0px black;
+            border-style: dotted;
+            font-size: large;
+        }
+        
+        #logcorrect:hover {
+            border: 2px solid wheat;
+            border-style: dotted;
+        
+        }
+        #check{
+            margin-top: 1px;
+            margin-bottom: 1px;
+        }
+        #check2{
+            color: white;
+        }
+        
+        }

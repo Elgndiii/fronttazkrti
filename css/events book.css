@@ -1,0 +1,788 @@
+@media (min-width:1500px) {
+
+    body {
+        background: black;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 45px;
+        background-color: green;
+        z-index: 100;
+    }
+
+    #logo {
+        position: absolute;
+        height: 100%;
+        width: 5%;
+
+    }
+
+
+    .navbar ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar li {
+        position: relative;
+        border: none;
+    }
+
+    .navbar li:hover {
+        background: none;
+        transform: scale(1);
+    }
+
+    .navbar a {
+        display: block;
+        padding: 10px 20px;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .navbar ul ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        min-width: 150px;
+        display: none;
+    }
+
+    .navbar ul ul li {
+        position: relative;
+    }
+
+    .navbar ul ul a {
+        padding: 10px 20px;
+        color: #ffffff;
+        font-size: 16px;
+        background-color: green;
+    }
+
+    .navbar ul li:hover>ul {
+        display: block;
+    }
+
+    .top {
+        height: 50%;
+        width: 100%;
+    }
+
+    #home1 {
+        margin-right: 150px;
+
+    }
+
+    #match1 {
+        color: black;
+        background: rgb(245, 245, 86);
+
+    }
+
+    #submenu {
+        background: green;
+
+    }
+
+
+    .option:hover {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+
+
+    a {
+        font-size: xx-large;
+        font-weight: bolder;
+        margin-top: 2px;
+    }
+
+    a:hover {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+
+
+    h2 {
+        color: white;
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    .menu h3
+     {
+        color: lightgreen;
+        font-size: xx-large;
+
+    }
+    .soon h3{
+        font-size: xx-large;
+    }
+
+    .menu {
+        margin-top: 20px;
+        margin-left:-30px ;
+        float: left;
+        width: 50%;
+    }
+
+    .menu img {
+        width: 15%;
+        height: 5%;
+        border: 2px solid black;
+        border-radius: 20%;
+        margin: 10px;
+
+    }
+    .soon img {
+        width: 15%;
+        height: 5%;
+        border: 2px solid black;
+        border-radius: 20%;
+        margin: 10px;
+
+    }
+
+    .cart {
+    
+float: left;
+margin-left: 150px;
+    width:80%;
+        background: rgb(29, 29, 29);
+        border: 1px solid white;
+        border-radius: 20px;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+    }
+
+    .cart:hover {
+        transform: scale(1.1);
+
+    }
+
+    li {
+        border: 2px solid white;
+        border-radius: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: whitesmoke;
+        margin-bottom: 10px;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+
+    }
+
+    li:hover {
+        transform: scale(1.1);
+        background: grey;
+
+    }
+
+    .price {
+        font-weight: bold;
+        color: white;
+    }
+
+    p {
+        color: white;
+    }
+
+    button {
+        color: white;
+        margin: 10px;
+        font-size: x-large;
+        font-weight: bolder;
+        background: lightseagreen;
+        cursor: pointer;
+    }
+
+    button:hover {
+        color: #000;
+        border: 1px solid white;
+        background: rgb(255, 255, 0);
+    }
+
+    .soon {
+        float: right;
+        margin-top: 20px;
+margin-right: 30px;
+        width: 50%;
+        height: 100%;
+    
+}
+#send{
+    color: white;
+    font-size: xx-large;
+    height: 50px;
+    width: 150px;
+    background: green;
+    cursor: pointer;
+    margin-top: 4px;
+    margin-left: 45%;
+    
+}
+#send:hover{
+    border: 1px solid white;
+    background: yellowgreen;
+}
+#a1{
+    position: absolute;
+    top: 200px;
+right: 40%;
+height: 250px;
+    width: 400px;
+    background: lightgreen;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+
+}
+#a1:hover{
+    transform: scale(1.1);
+
+}
+#a2{
+        position: absolute;
+        text-align: center;
+        right: 50px;
+        top: 100px;
+        font-size: x-large;
+        font-weight: bolder;
+    }
+
+}
+
+
+@media (min-width:1000px) and (max-width:1500px) {
+
+    body {
+        background: black;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 45px;
+        background-color: green;
+        z-index: 100;
+    }
+
+    #logo {
+        position: absolute;
+        height: 100%;
+        width: 5%;
+
+    }
+
+
+    .navbar ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar li {
+        position: relative;
+        border: none;
+    }
+
+    .navbar li:hover {
+        background: none;
+        transform: scale(1);
+    }
+
+    .navbar a {
+        display: block;
+        padding: 10px 20px;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .navbar ul ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        min-width: 200px;
+        display: none;
+    }
+
+    .navbar ul ul li {
+        position: relative;
+    }
+
+    .navbar ul ul a {
+        padding: 10px 20px;
+        color: #ffffff;
+        font-size: 16px;
+        background-color: green;
+    }
+
+    .navbar ul li:hover>ul {
+        display: block;
+    }
+
+    .top {
+        height: 50%;
+        width: 100%;
+    }
+
+    #home1 {
+        margin-right: 150px;
+
+    }
+
+    #match1 {
+        color: black;
+        background: rgb(245, 245, 86);
+
+    }
+
+    #submenu {
+        background: green;
+
+    }
+
+
+    .option:hover {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+
+
+    a {
+        font-size: xx-large;
+        font-weight: bolder;
+        margin-top: 2px;
+    }
+
+    a:hover {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+
+
+    
+
+h2 {
+color: white;
+text-align: center;
+font-size: xx-large;
+}
+
+.menu h3
+{
+color: yellow;
+font-size: x-large;
+
+}
+.soon h3{
+font-size: x-large;
+}
+
+.menu {
+margin-top: 20px;
+float: left;
+width: 50%;
+}
+
+.menu img {
+width: 15%;
+height: 5%;
+border: 2px solid black;
+border-radius: 20%;
+margin: 10px;
+
+}
+.soon img {
+width: 15%;
+height: 5%;
+border: 2px solid black;
+border-radius: 20%;
+margin: 10px;
+
+}
+
+.cart {
+
+float: left;
+margin-left: 150px;
+width:80%;
+background: rgb(29, 29, 29);
+border: 1px solid white;
+border-radius: 20px;
+transition: all 0.2s ease-in-out;
+cursor: pointer;
+}
+
+.cart:hover {
+transform: scale(1.1);
+
+}
+
+li {
+border: 2px solid white;
+border-radius: 50px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: whitesmoke;
+margin-bottom: 10px;
+transition: all 0.2s ease-in-out;
+cursor: pointer;
+
+}
+
+li:hover {
+transform: scale(1.1);
+background: grey;
+
+}
+
+.price {
+font-weight: bold;
+color: white;
+}
+
+p {
+color: white;
+}
+
+button {
+    color: white;
+    margin: 10px;
+    font-size: x-large;
+    font-weight: bolder;
+    background: lightseagreen;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #000;
+    border: 1px solid white;
+    background: rgb(255, 255, 0);
+}
+
+.soon {
+float: right;
+margin-top: 20px;
+width: 50%;
+height: 100%;
+
+}
+
+#send{
+    color: white;
+    font-size: xx-large;
+    height: 50px;
+    width: 150px;
+    background: green;
+    cursor: pointer;
+    margin-top: 4px;
+    margin-left: 45%;
+    
+}
+#send:hover{
+    border: 1px solid white;
+    background: yellowgreen;
+}
+#a1{
+    position: absolute;
+    top: 200px;
+right: 40%;
+height: 250px;
+    width: 400px;
+    background: lightgreen;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+
+}
+#a1:hover{
+    transform: scale(1.1);
+
+}
+#a2{
+        position: absolute;
+        text-align: center;
+        right: 50px;
+        top: 100px;
+        font-size: x-large;
+        font-weight: bolder;
+    }
+
+}
+@media (max-width:1000px) {
+
+
+    body {
+        background: black;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 45px;
+        background-color: green;
+        z-index: 100;
+    }
+
+    #logo {
+        position: absolute;
+        height: 100%;
+        width: 5%;
+
+    }
+
+
+    .navbar ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar li {
+        position: relative;
+        border: none;
+    }
+
+    .navbar li:hover {
+        background: none;
+        transform: scale(1);
+    }
+
+    .navbar a {
+        display: block;
+        padding: 10px 20px;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .navbar ul ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        min-width: 200px;
+        display: none;
+    }
+
+    .navbar ul ul li {
+        position: relative;
+    }
+
+    .navbar ul ul a {
+        padding: 10px 20px;
+        color: #ffffff;
+        font-size: 16px;
+        background-color: green;
+    }
+
+    .navbar ul li:hover>ul {
+        display: block;
+    }
+
+    .top {
+        height: 50%;
+        width: 100%;
+    }
+
+    #home1 {
+        margin-right: 150px;
+
+    }
+
+    #match1 {
+        color: black;
+        background: rgb(245, 245, 86);
+
+    }
+
+    #submenu {
+        background: green;
+
+    }
+
+
+    .option:hover {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+
+
+    a {
+        font-size: xx-large;
+        font-weight: bolder;
+        margin-top: 2px;
+    }
+
+    a:hover {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+
+
+    
+h2 {
+color: white;
+text-align: center;
+font-size: xx-large;
+}
+
+.menu h3
+{
+color: yellow;
+font-size: large;
+
+}
+.soon h3{
+font-size: x-large;
+}
+
+.menu {
+margin-top: 20px;
+float: left;
+width: 50%;
+
+}
+
+.menu img {
+width: 15%;
+height: 5%;
+border: 2px solid black;
+border-radius: 20%;
+margin: 10px;
+
+}
+.soon img {
+width: 15%;
+height: 5%;
+border: 2px solid black;
+border-radius: 20%;
+margin: 10px;
+
+}
+
+.cart {
+
+float: left;
+margin-left: 150px;
+width:80%;
+background: rgb(29, 29, 29);
+border: 1px solid white;
+border-radius: 20px;
+transition: all 0.2s ease-in-out;
+cursor: pointer;
+}
+
+.cart:hover {
+transform: scale(1.1);
+
+}
+
+li {
+border: 2px solid white;
+border-radius: 50px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: whitesmoke;
+margin-bottom: 10px;
+transition: all 0.2s ease-in-out;
+cursor: pointer;
+
+}
+
+li:hover {
+transform: scale(1.1);
+background: grey;
+
+}
+
+.price {
+font-weight: bold;
+color: white;
+}
+
+p {
+color: white;
+}
+
+button {
+    color: white;
+    margin: 10px;
+    font-size: x-large;
+    font-weight: bolder;
+    background: lightseagreen;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #000;
+    border: 1px solid white;
+    background: rgb(255, 255, 0);
+}
+
+.soon {
+float: right;
+margin-top: 20px;
+width: 50%;
+height: 100%;
+
+}
+
+#send{
+    color: white;
+    font-size: xx-large;
+    height: 50px;
+    width: 150px;
+    background: green;
+    cursor: pointer;
+    margin-top: 4px;
+    margin-left: 40%;
+    
+}
+#send:hover{
+    border: 1px solid white;
+    background: yellowgreen;
+}
+#a1{
+    position: absolute;
+    top: 200px;
+right: 30%;
+height: 250px;
+    width: 400px;
+    background: lightgreen;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+
+}
+#a1:hover{
+    transform: scale(1.1);
+
+}
+#a2{
+        position: absolute;
+        text-align: center;
+        right: 50px;
+        top: 100px;
+        font-size: x-large;
+        font-weight: bolder;
+    }
+
+}

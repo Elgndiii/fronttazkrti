@@ -1,0 +1,892 @@
+@media  (min-width:1500px) {
+
+body {
+    font-family: sans-serif;
+    background: black;
+
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    background-color: green;
+    z-index: 100;
+}
+
+#logo {
+    position: absolute;
+    height: 100%;
+    width: 5%;
+    right: 10px;
+
+
+}
+
+#logo2 {
+    position: absolute;
+    height: 10%;
+    width: 5%;
+    right: 720px;
+
+
+}
+
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar a {
+    display: block;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    display: none;
+}
+
+.navbar ul ul li {
+    position: relative;
+}
+
+.navbar ul ul a {
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: green;
+}
+
+.navbar ul li:hover>ul {
+    display: block;
+}
+
+#home1 {
+    margin-right: 150px;
+    color: white;
+}
+
+#home1:hover {
+    color: black;
+    background: rgb(245, 245, 86);
+}
+
+#match1 {
+    color: black;
+    background: rgb(245, 245, 86);
+}
+
+.submenu {
+    background: green;
+
+}
+
+.option:hover {
+    color: black;
+    background: rgb(245, 245, 86);
+}
+
+
+a {
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 2px;
+}
+
+
+a:hover {
+    color: black;
+    background: rgb(245, 245, 86);
+}
+
+#all-tickets {
+    height: 350px;
+    margin-top: 100px;
+}
+
+#event-ticket {
+    height: 50px;
+    background: black;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: #ffffff;
+
+}
+
+#event-ticket:hover {
+    background: lightblue;
+    color: black;
+}
+
+b {
+    float: right;
+    font-size: xx-large;
+    margin-right: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#match-ticket {
+    height: 50px;
+    background: black;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: #ffffff;
+
+}
+
+#match-ticket:hover {
+    background: lightblue;
+    color: black;
+}
+
+
+#pay {
+    height: 50px;
+    background: black;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+.events {
+    height: 220px;
+    background: rgb(29, 29, 29);
+    border-radius: 20px;
+}
+
+.name {
+    float: right;
+    width: 250px;
+    height: 100px;
+    border-left: 1px solid white;
+}
+
+.tickets-num {
+    margin-right: 50px;
+    float: right;
+    width: 250px;
+    height: 100px;
+    border-left: 1px solid white;
+
+}
+
+.id-num {
+    margin-right: 50px;
+    float: right;
+    width: 250px;
+    height: 100px;
+    border-left: 1px solid white;
+
+}
+
+.status {
+    margin-right: 50px;
+    float: right;
+    width: 200px;
+    height: 100px;
+    border-left: 1px solid white;
+
+}
+
+.party {
+    float: right;
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    background: gray;
+}
+
+.party img {
+    width: 10%;
+    height: 100%;
+    float: right;
+}
+
+.matc {
+    position: relative;
+    float: right;
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    background: gray;
+}
+
+.matc img {
+    width: 5%;
+    height: 100%;
+    float: right;
+}
+
+p {
+    margin-top: 0px;
+    text-align: right;
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.name2 {
+    color: rgb(11, 220, 11);
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.party2 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.matc2 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.matc3 {
+    position: absolute;
+    color: #ffffff;
+    top: 30px;
+    left: 20px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+#x1{
+    position: absolute;
+    color: black;
+    top: 180px;
+    left: 50px;
+    width: 50px;
+    font-size: xx-large;
+    background: white;
+    border: none;
+    cursor: pointer;
+}
+#x2{
+    position: absolute;
+    color: red;
+    top: 750px;
+    left: 50px;
+    width: 50px;
+    font-size: xx-large;
+    background: white;
+    cursor: pointer;
+}
+}
+
+@media  (min-width:1000px) and (max-width:1500px) {
+
+    body {
+        font-family: sans-serif;
+        background: black;
+    
+    }
+    
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 45px;
+        background-color: green;
+        z-index: 100;
+    }
+    
+    #logo {
+        position: absolute;
+        height: 100%;
+        width: 5%;
+        right: 10px;
+    
+    
+    }
+    
+    #logo2 {
+        position: absolute;
+        height: 10%;
+        width: 5%;
+        right: 720px;
+    
+    
+    }
+    
+    
+    .navbar ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .navbar li {
+        position: relative;
+    }
+    
+    .navbar a {
+        display: block;
+        padding: 10px 20px;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    
+    .navbar ul ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        min-width: 200px;
+        display: none;
+    }
+    
+    .navbar ul ul li {
+        position: relative;
+    }
+    
+    .navbar ul ul a {
+        padding: 10px 20px;
+        color: #ffffff;
+        font-size: 16px;
+        background-color: green;
+    }
+    
+    .navbar ul li:hover>ul {
+        display: block;
+    }
+    
+    #home1 {
+        margin-right: 150px;
+        color: white;
+    }
+    
+    #home1:hover {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+    
+    #match1 {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+    
+    .submenu {
+        background: green;
+    
+    }
+    
+    .option:hover {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+    
+    
+    a {
+        font-size: xx-large;
+        font-weight: bolder;
+        margin-top: 2px;
+    }
+    
+    
+    a:hover {
+        color: black;
+        background: rgb(245, 245, 86);
+    }
+    
+    #all-tickets {
+        height: 350px;
+        margin-top: 100px;
+    }
+    
+    #event-ticket {
+        height: 50px;
+        background: black;
+        border: 1px solid gray;
+        margin-bottom: 20px;
+        cursor: pointer;
+        color: #ffffff;
+    
+    }
+    
+    #event-ticket:hover {
+        background: lightblue;
+        color: black;
+    }
+    
+    b {
+        float: right;
+        font-size: xx-large;
+        margin-right: 20px;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+    
+    #match-ticket {
+        height: 50px;
+        background: black;
+        border: 1px solid gray;
+        margin-bottom: 20px;
+        cursor: pointer;
+        color: #ffffff;
+    
+    }
+    
+    #match-ticket:hover {
+        background: lightblue;
+        color: black;
+    }
+    
+    
+    #pay {
+        height: 50px;
+        background: black;
+        border: 1px solid gray;
+        margin-bottom: 20px;
+    }
+    
+    .events {
+        height: 220px;
+        background: rgb(29, 29, 29);
+        border-radius: 20px;
+    }
+    
+    .name {
+        float: right;
+        width: 250px;
+        height: 100px;
+        border-left: 1px solid white;
+    }
+    
+    .tickets-num {
+        margin-right: 50px;
+        float: right;
+        width: 250px;
+        height: 100px;
+        border-left: 1px solid white;
+    
+    }
+    
+    .id-num {
+        margin-right: 50px;
+        float: right;
+        width: 250px;
+        height: 100px;
+        border-left: 1px solid white;
+    
+    }
+    
+    .status {
+        margin-right: 50px;
+        float: right;
+        width: 80px;
+        height: 100px;
+        border-left: 1px solid white;
+        margin-bottom: 5px;
+    
+    }
+    
+    .party {
+        float: right;
+        margin-top: 20px;
+        width: 100%;
+        height: 100px;
+        background: gray;
+    }
+    
+    .party img {
+        width: 10%;
+        height: 100%;
+        float: right;
+    }
+    
+    .matc {
+        position: relative;
+        float: right;
+        margin-top: 20px;
+        width: 100%;
+        height: 100px;
+        background: gray;
+    }
+    
+    .matc img {
+        width: 5%;
+        height: 100%;
+        float: right;
+    }
+    
+    p {
+        margin-top: 0px;
+        text-align: right;
+        color: white;
+        font-weight: bolder;
+        font-size: x-large;
+    }
+    
+    .name2 {
+        color: rgb(11, 220, 11);
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+    
+    .party2 {
+        text-align: center;
+        margin-top: 30px;
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+    
+    .matc2 {
+        text-align: center;
+        margin-top: 30px;
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+    
+    .matc3 {
+        position: absolute;
+        color: #ffffff;
+        top: 30px;
+        left: 20px;
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+    #x1{
+        position: absolute;
+        color: black;
+        top: 180px;
+        left: 50px;
+        width: 50px;
+        font-size: xx-large;
+        background: white;
+        border: none;
+        cursor: pointer;
+    }
+    #x2{
+        position: absolute;
+        color: red;
+        top: 750px;
+        left: 50px;
+        width: 50px;
+        font-size: xx-large;
+        background: white;
+        cursor: pointer;
+    }
+    }
+
+    @media  (max-width:1000px) {
+
+        body {
+            font-family: sans-serif;
+            background: black;
+        
+        }
+        
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 45px;
+            background-color: green;
+            z-index: 100;
+        }
+        
+        #logo {
+            position: absolute;
+            height: 100%;
+            width: 5%;
+            right: 10px;
+        
+        
+        }
+        
+        #logo2 {
+            position: absolute;
+            height: 10%;
+            width: 5%;
+            right: 720px;
+        
+        
+        }
+        
+        
+        .navbar ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .navbar li {
+            position: relative;
+        }
+        
+        .navbar a {
+            display: block;
+            padding: 10px 20px;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        
+        .navbar ul ul {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            min-width: 200px;
+            display: none;
+        }
+        
+        .navbar ul ul li {
+            position: relative;
+        }
+        
+        .navbar ul ul a {
+            padding: 10px 20px;
+            color: #ffffff;
+            font-size: 16px;
+            background-color: green;
+        }
+        
+        .navbar ul li:hover>ul {
+            display: block;
+        }
+        
+        #home1 {
+            margin-right: 150px;
+            color: white;
+        }
+        
+        #home1:hover {
+            color: black;
+            background: rgb(245, 245, 86);
+        }
+        
+        #match1 {
+            color: black;
+            background: rgb(245, 245, 86);
+        }
+        
+        .submenu {
+            background: green;
+        
+        }
+        
+        .option:hover {
+            color: black;
+            background: rgb(245, 245, 86);
+        }
+        
+        
+        a {
+            font-size: xx-large;
+            font-weight: bolder;
+            margin-top: 2px;
+        }
+        
+        
+        a:hover {
+            color: black;
+            background: rgb(245, 245, 86);
+        }
+        
+        #all-tickets {
+            height: 350px;
+            margin-top: 100px;
+        }
+        
+        #event-ticket {
+            height: 50px;
+            background: black;
+            border: 1px solid gray;
+            margin-bottom: 20px;
+            cursor: pointer;
+            color: #ffffff;
+        
+        }
+        
+        #event-ticket:hover {
+            background: lightblue;
+            color: black;
+        }
+        
+        b {
+            float: right;
+            font-size: xx-large;
+            margin-right: 20px;
+            margin-top: 5px;
+            cursor: pointer;
+        }
+        
+        #match-ticket {
+            height: 50px;
+            background: black;
+            border: 1px solid gray;
+            margin-bottom: 20px;
+            cursor: pointer;
+            color: #ffffff;
+        
+        }
+        
+        #match-ticket:hover {
+            background: lightblue;
+            color: black;
+        }
+        
+        
+        #pay {
+            height: 50px;
+            background: black;
+            border: 1px solid gray;
+            margin-bottom: 20px;
+        }
+        
+        .events {
+            height: 220px;
+            background: rgb(29, 29, 29);
+            border-radius: 20px;
+        }
+        
+        .name {
+            float: right;
+            width: 140px;
+            height: 100px;
+            border-left: 1px solid white;
+        }
+        
+        .tickets-num {
+            margin-right: 50px;
+            float: right;
+            width: 250px;
+            height: 100px;
+            border-left: 1px solid white;
+        
+        }
+        
+        .id-num {
+            margin-right: 50px;
+            float: right;
+            width: 250px;
+            height: 100px;
+            border-left: 1px solid white;
+        
+        }
+        
+        .status {
+            margin-right: 50px;
+            float: right;
+            width: 80px;
+            height: 100px;
+            border-left: 1px solid white;
+            margin-bottom: 5px;
+        
+        }
+        
+        .party {
+            float: right;
+            margin-top: 20px;
+            width: 100%;
+            height: 100px;
+            background: gray;
+        }
+        
+        .party img {
+            width: 10%;
+            height: 100%;
+            float: right;
+        }
+        
+        .matc {
+            position: relative;
+            float: right;
+            margin-top: 20px;
+            width: 100%;
+            height: 100px;
+            background: gray;
+        }
+        
+        .matc img {
+            width: 5%;
+            height: 100%;
+            float: right;
+        }
+        
+        p {
+            margin-top: 0px;
+            text-align: right;
+            color: white;
+            font-weight: bolder;
+            font-size: x-large;
+        }
+        
+        .name2 {
+            color: rgb(11, 220, 11);
+            font-size: xx-large;
+            font-weight: bolder;
+        }
+        
+        .party2 {
+            text-align: center;
+            margin-top: 30px;
+            font-size: xx-large;
+            font-weight: bolder;
+        }
+        
+        .matc2 {
+            text-align: center;
+            margin-top: 30px;
+            font-size: xx-large;
+            font-weight: bolder;
+        }
+        
+        .matc3 {
+            position: absolute;
+            color: #ffffff;
+            top: 30px;
+            left: 20px;
+            font-size: xx-large;
+            font-weight: bolder;
+        }
+        #x1{
+            position: absolute;
+            color: black;
+            top: 180px;
+            left: 50px;
+            width: 50px;
+            font-size: xx-large;
+            background: white;
+            border: none;
+            cursor: pointer;
+        }
+        #x2{
+            position: absolute;
+            color: red;
+            top: 750px;
+            left: 50px;
+            width: 50px;
+            font-size: xx-large;
+            background: white;
+            cursor: pointer;
+        }
+        }
